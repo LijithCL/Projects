@@ -14,6 +14,7 @@ class LoginViewModel(private val loginRepository: LoginRepository) :ViewModel() 
 
     private val users = MutableLiveData<String>()
     private val model: Model
+    private val string:String="null"
 
     private val errorMessage = "Email or Password is not valid"
 
